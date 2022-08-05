@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+    margin: 20px;
+}
+
+.input label{
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.input input{
+    width: 100%;
+    padding: 10px 16px;
+    outline: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.input input[type="submit"]{
+    background-color: whitesmoke;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    transition: background-color .3s ease-in-out;
+    -webkit-transition: background-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out;
+    -ms-transition: background-color .3s ease-in-out;
+    -o-transition: background-color .3s ease-in-out;
+    margin-top: 20px;
+}
+
+.input input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+.btn-enviar{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.recuperacontra{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
